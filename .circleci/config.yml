@@ -30,7 +30,7 @@ jobs:
           command: |
             cd bankchurn-api 
             railway up --service=lovely-creation
-            railway up --detach
+         #   railway up --detach
 
 
 tags_only: &tags_only
